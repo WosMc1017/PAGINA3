@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisSettingsCommentsRoot.react",["fbt","PolarisSettingsBloksApp.react","PolarisSettingsPage.react","react"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j=(i||(i=d("react"))).unstable_useMemoCache,k=i;function a(a){a=j(2);var b;a[0]===Symbol["for"]("react.memo_cache_sentinel")?(b=h._("__JHASH__UeX0uMpQFJl__JHASH__"),a[0]=b):b=a[0];a[1]===Symbol["for"]("react.memo_cache_sentinel")?(b=k.jsx(c("PolarisSettingsPage.react"),{polarisPageId:"settingsCommentsPage",title:b,children:k.jsx(c("PolarisSettingsBloksApp.react"),{appId:"com.instagram.settings.privacy.comments"})}),a[1]=b):b=a[1];return b}g["default"]=a}),98);

@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("XPolarisProfileEditControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/accounts/edit/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);
+__d("PolarisSettingsGatingUtils",["PolarisNavigationUtils","PolarisUA","XPolarisAccountSettingsControllerRouteBuilder","XPolarisProfileEditControllerRouteBuilder","gkx"],(function(a,b,c,d,e,f,g){"use strict";function a(a){return a&&c("gkx")("25414")}function b(){d("PolarisNavigationUtils").openURL(d("PolarisUA").isMobile()?c("XPolarisAccountSettingsControllerRouteBuilder").buildURL({}):c("XPolarisProfileEditControllerRouteBuilder").buildURL({}))}g.isElevationV2Enabled=a;g.openSettingsHome=b}),98);
